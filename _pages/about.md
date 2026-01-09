@@ -6,7 +6,7 @@ subtitle: Repetita taedent
 
 profile:
   align: right
-  image: prof_pic.png
+  image: prof_pic_m.png
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>I work @ lemcube.com</p>
