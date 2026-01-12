@@ -22,3 +22,6 @@ Le librerie davvero condivise tra tutti i moduli (utility, astrazioni comuni, cr
 
 ## Link all’articolo originale
 Fonte: [How to design a maintainable .NET solution structure for growing teams](https://dev.to/mashrulhaque/how-to-design-a-maintainable-net-solution-structure-for-growing-teams-284n?utm_source=bonobopress&utm_medium=newsletter&utm_campaign=2190)
+
+
+
