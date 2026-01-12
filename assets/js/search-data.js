@@ -72,7 +72,18 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/blog/";
               },
-            },{id: "post-a-post-with-plotly-js",
+            },{id: "post-struttura-mantenibile-per-una-soluzione-net-che-cresce-con-il-team",
+        
+          title: "struttura mantenibile per una soluzione .net che cresce con il team",
+        
+        description: "riassunto di un articolo su come organizzare una solution .net mantenibile e scalabile per team in crescita",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/struttura-soluzione-dotnet-mantenibile/";
+          
+        },
+      },{id: "post-a-post-with-plotly-js",
         
           title: "a post with plotly.js",
         
