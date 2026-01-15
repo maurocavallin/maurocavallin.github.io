@@ -72,7 +72,18 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/blog/";
               },
-            },{id: "post-struttura-mantenibile-per-una-soluzione-net-che-cresce-con-il-team",
+            },{id: "post-",
+        
+          title: "",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/2026-01-14-oqtane-blazor-wasm-vs-lento/";
+          
+        },
+      },{id: "post-struttura-mantenibile-per-una-soluzione-net-che-cresce-con-il-team",
         
           title: "struttura mantenibile per una soluzione .net che cresce con il team",
         
