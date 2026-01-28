@@ -2,20 +2,20 @@
 layout: post
 title: Controllo Robot via WiFi con Comandi JSON
 date: 2026-01-28
-description: Architettura a due microcontrollori per controllare un robot tramite comandi JSON inviati da un'app mobile
+description: Test e prove di controllo robot tramite comandi JSON inviati da una sezione di debug dell'app mobile
 tags: robotics arduino esp32 json wifi
 categories: projects
 thumbnail: assets/img/26989_b3a51143.768x768.jpg
 ---
 
-In questo progetto, ho sviluppato un sistema per controllare un robot tramite comandi JSON inviati da un'app mobile. Il sistema utilizza un'architettura a due microcontrollori per massimizzare la flessibilità e la modularità.
+In questo articolo descrivo alcune prove di controllo di un robot tramite comandi JSON inviati da una sezione di debugging di un'app mobile. L'architettura utilizza due microcontrollori che comunicano tra loro per gestire i comandi.
 
 ## Architettura del Sistema
 
 Il sistema è composto da tre componenti principali:
 
-### 1. App Mobile
-Un'applicazione nativa che permette di inviare comandi JSON al robot tramite WiFi. L'interfaccia è semplice e intuitiva, permettendo di controllare tutti gli aspetti del robot in tempo reale.
+### 1. App Mobile - Sezione Debug
+Una sezione di debugging dell'app mobile che permette di inviare comandi JSON di test al robot tramite WiFi. L'interfaccia consente di impartire semplici comandi per verificare il funzionamento dei vari componenti.
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
@@ -86,16 +86,15 @@ La seguente tabella riassume tutti i comandi disponibili:
 | `21` | Lettura sensore ultrasuoni | `D1`: ID sensore |
 | `100` | STOP emergenza | Nessun parametro richiesto |
 
-## Vantaggi dell'Architettura
+## Osservazioni sui Test
 
-Questa architettura modulare offre diversi vantaggi:
+Durante le prove, questa architettura modulare ha dimostrato alcuni vantaggi interessanti:
 
 1. **Separazione delle responsabilità**: L'ESP32 gestisce la connettività WiFi mentre l'Arduino si concentra sul controllo hardware
-2. **Flessibilità**: È facile aggiungere nuovi comandi o sensori modificando solo il codice Arduino
-3. **Scalabilità**: Il protocollo JSON può essere esteso facilmente per supportare nuovi tipi di comandi
-4. **Debug semplificato**: I due microcontrollori possono essere testati indipendentemente
-5. **Riutilizzabilità**: La stessa architettura può essere adattata per diversi tipi di robot
+2. **Flessibilità nei test**: È facile testare nuovi comandi o sensori modificando solo il codice Arduino
+3. **Debugging semplificato**: I due microcontrollori possono essere testati indipendentemente
+4. **Protocollo estendibile**: Il formato JSON consente di aggiungere facilmente nuovi tipi di comandi per ulteriori test
 
 ## Conclusioni
 
-Questo progetto dimostra come sia possibile realizzare un sistema di controllo robotico modulare e flessibile utilizzando componenti comuni e un protocollo di comunicazione basato su JSON. L'architettura a due microcontrollori permette di sfruttare al meglio le caratteristiche di ciascun componente, ottenendo un sistema robusto e facilmente estensibile.
+Questi test mostrano come sia possibile controllare un robot utilizzando comandi JSON inviati da una semplice sezione di debug di un'app mobile. L'architettura a due microcontrollori si è rivelata pratica per testare vari componenti e comandi in modo flessibile, utilizzando componenti comuni e un protocollo di comunicazione leggibile e facilmente estendibile.
