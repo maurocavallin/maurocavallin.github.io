@@ -80,18 +80,18 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/blog/2026/2026-01-15-oqtane-blazor-wasm-vs-lento/";
+            window.location.href = "/blog/2026/2026-01-27-post-di-test/";
           
         },
-      },{id: "post-post-di-test",
+      },{id: "post-",
         
-          title: "post di test",
+          title: "",
         
-        description: "post di test",
+        description: "",
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/blog/2026/post-di-test/";
+            window.location.href = "/blog/2026/2026-01-15-oqtane-blazor-wasm-vs-lento/";
           
         },
       },{id: "post-struttura-mantenibile-per-una-soluzione-net-che-cresce-con-il-team",
