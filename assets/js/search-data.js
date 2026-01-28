@@ -72,18 +72,7 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/blog/";
               },
-            },{id: "post-",
-        
-          title: "",
-        
-        description: "",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2026/2026-01-27-post-di-test/";
-          
-        },
-      },{id: "post-visual-studio-lento-con-oqtane-e-blazor-webassembly-la-causa-e-la-soluzione",
+            },{id: "post-visual-studio-lento-con-oqtane-e-blazor-webassembly-la-causa-e-la-soluzione",
         
           title: "Visual Studio lento con Oqtane e Blazor WebAssembly: la causa e la soluzione...",
         
