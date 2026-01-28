@@ -72,7 +72,18 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/blog/";
               },
-            },{id: "post-visual-studio-lento-con-oqtane-e-blazor-webassembly-la-causa-e-la-soluzione",
+            },{id: "post-controllo-robot-via-wifi-con-comandi-json",
+        
+          title: "Controllo Robot via WiFi con Comandi JSON",
+        
+        description: "Test e prove di controllo robot tramite comandi JSON inviati da una sezione di debug dell&#39;app mobile",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/robot-json-commands/";
+          
+        },
+      },{id: "post-visual-studio-lento-con-oqtane-e-blazor-webassembly-la-causa-e-la-soluzione",
         
           title: "Visual Studio lento con Oqtane e Blazor WebAssembly: la causa e la soluzione...",
         
