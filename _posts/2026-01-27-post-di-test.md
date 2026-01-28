@@ -1,8 +1,8 @@
 ---
 layout: post
-title: post di test
+title: Visual Studio lento con Oqtane e Blazor WebAssembly: la causa e la soluzione
 date: 2026-01-27 09:00:00
-description: post di test
+description: Annotazione sulla risoluzione della lentezza di Visual Studio con Oqtane e Blazor WASM.
 tags: test
 categories: architecture
 ---
