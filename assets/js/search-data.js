@@ -83,15 +83,15 @@ ninja.data = [{
             window.location.href = "/blog/2026/2026-01-27-post-di-test/";
           
         },
-      },{id: "post-",
+      },{id: "post-visual-studio-lento-con-oqtane-e-blazor-webassembly-la-causa-e-la-soluzione",
         
-          title: "",
+          title: "Visual Studio lento con Oqtane e Blazor WebAssembly: la causa e la soluzione...",
         
-        description: "",
+        description: "Annotazione sulla risoluzione della lentezza di Visual Studio con Oqtane e Blazor WASM.",
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/blog/2026/2026-01-15-oqtane-blazor-wasm-vs-lento/";
+            window.location.href = "/blog/2026/oqtane-blazor-wasm-vs-lento/";
           
         },
       },{id: "post-struttura-mantenibile-per-una-soluzione-net-che-cresce-con-il-team",
