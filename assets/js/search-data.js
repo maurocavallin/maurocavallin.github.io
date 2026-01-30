@@ -23,7 +23,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/projects/";
           },
-        },{id: "post-mcp-apps-color-picker-con-net",
+        },{id: "post-zero-to-hero-blazor-web-apps",
+        
+          title: "Zero to Hero - Blazor Web Apps",
+        
+        description: "Sessione completa su Blazor Web Apps",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/blazor-zero-to-hero/";
+          
+        },
+      },{id: "post-mcp-apps-color-picker-con-net",
         
           title: "MCP Apps - Color Picker con .NET",
         
