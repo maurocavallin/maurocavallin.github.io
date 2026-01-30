@@ -23,7 +23,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/projects/";
           },
-        },{id: "post-controllo-robot-via-wifi-con-comandi-json",
+        },{id: "post-mcp-apps-color-picker-con-net",
+        
+          title: "MCP Apps - Color Picker con .NET",
+        
+        description: "Come creare una MCP App con .NET",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/mcp-colorpicker/";
+          
+        },
+      },{id: "post-controllo-robot-via-wifi-con-comandi-json",
         
           title: "Controllo Robot via WiFi con Comandi JSON",
         
