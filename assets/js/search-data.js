@@ -391,6 +391,17 @@ ninja.data = [{
             window.location.href = "/blog/2020/twitter/";
           
         },
+      },{id: "post-c-unicast-event-ensure-an-event-has-only-one-subscriber-with-the-use-of-getinvocationlist",
+        
+          title: "C# Unicast Event: ensure an event has only one subscriber with the use...",
+        
+        description: "How to implement an event that limits the number of subscribers to one in C#",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2017/csharp-unicast-event/";
+          
+        },
       },{id: "post-a-post-with-disqus-comments",
         
           title: "a post with disqus comments",
