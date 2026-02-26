@@ -12,3 +12,8 @@ node_modules/
 vendor
 .idea
 .venv
+
+# .NET build artifacts
+PreviewCleaner/**/bin/
+PreviewCleaner/**/obj/
+*.user
